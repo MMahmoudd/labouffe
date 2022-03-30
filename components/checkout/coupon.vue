@@ -55,7 +55,7 @@ export default {
       if (response.message && response.status === "200") {
         // TODO: Add $t
         this.SuccessMessage = "تم تطبيق الخصم بنجاح";
-        
+
         this.$emit("input", {
           coupon: this.couponNumber,
           discount_amount: response.data.discount_amount,
@@ -89,7 +89,7 @@ export default {
 
 .delete {
   width: fit-content;
-  background-color: #a3080b;
+  background-color: #CB9F7C;
   border: none;
   border-radius: 30px;
   -webkit-border-radius: 30px;

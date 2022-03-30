@@ -9,8 +9,8 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        titleTemplate: "%s - labouffe",
-        title: "labouffe",
+        titleTemplate: "%s - Labouffe",
+        title: "Labouffe",
         htmlAttrs: {
             lang: "en",
         },
@@ -21,7 +21,7 @@ export default {
             { name: "format-detection", content: "telephone=no" },
         ],
         link: [
-            { rel: "icon", type: "image/png", href: "/logo.png" },
+            { rel: "icon", type: "image/png", href: "/logo1.png" },
             {
                 href: "https://fonts.googleapis.com/css?family=Tajawal:400,500,700&display=swap&subset=arabic",
                 rel: "stylesheet",
@@ -81,19 +81,19 @@ export default {
     modules: ["bootstrap-vue/nuxt", "@nuxtjs/pwa", "cookie-universal-nuxt"],
     pwa: {
         meta: {
-            title: "labouffe",
-            author: "labouffe",
+            title: "Labouffe",
+            author: "Labouffe",
         },
         manifest: {
-            name: "labouffe",
-            short_name: "labouffe",
-            description: "Welcome in labouffe",
+            name: "Labouffe",
+            short_name: "Labouffe",
+            description: "Welcome in Labouffe",
             lang: "en",
             display: "standalone",
             start_url: "/?standalone=true",
         },
         icon: {
-            source: "./static/logo.png",
+            source: "./static/logo1.png",
         },
     },
 

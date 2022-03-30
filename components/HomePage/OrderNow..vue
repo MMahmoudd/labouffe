@@ -5,7 +5,7 @@
       <div class="content">
         <h2 class="orderNow-name">
           <!-- {{ $t("home.spicyZingerWrap") }} -->
-          {{ $t("home.Lamb thighs with rice andnuts") }}
+          {{ $t("home.Lambthighswithriceandnuts") }}
         </h2>
         <b-button :to="localePath(`/menu?category=60`)">{{
           $t("home.orderNow")
