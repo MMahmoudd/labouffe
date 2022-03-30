@@ -5,7 +5,7 @@ const resource = `${API_URL}`;
 
 export default {
   getAllCategories() {
-    return Service.get(`${resource}/categories?restaurant_id=2`).then(
+    return Service.get(`${resource}/categories?restaurant_id=5`).then(
       (response) => {
         if (response.status === 200) {
           return response.data;
@@ -14,7 +14,7 @@ export default {
     );
   },
   //   async getAllCategoriesWithProducts () {
-  //     const response = await Service.get(`${resource}/categories?restaurant_id=2`)
+  //     const response = await Service.get(`${resource}/categories?restaurant_id=5`)
   //     console.log('response', response)
   //         if (response.status === 200) {
 

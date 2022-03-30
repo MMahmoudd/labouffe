@@ -11,6 +11,7 @@
                 md="3"
                 sm="4"
                 class="mb-3 d-inline-flex justify-content-center"
+                style=""
                 v-for="(item, i) in slide"
                 :key="i"
               >

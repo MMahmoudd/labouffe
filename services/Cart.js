@@ -84,7 +84,7 @@ export default {
       });
   },
   getCouponData(coupon) {
-    return Service.get(`${resource}/discount?restaurant_id=2&code=${coupon}`, {
+    return Service.get(`${resource}/discount?restaurant_id=5&code=${coupon}`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("token"),
         accept: "application/json",

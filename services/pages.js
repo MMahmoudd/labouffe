@@ -5,7 +5,7 @@ const resource = `${API_URL}`;
 
 export default {
   sendMassage(data) {
-    return Service.post(`${resource}/send_message?restaurant_id=2`, {
+    return Service.post(`${resource}/send_message?restaurant_id=5`, {
       ...data,
     })
       .then((response) => {
@@ -18,7 +18,7 @@ export default {
       });
   },
   getSlider() {
-    return Service.get(`${resource}/sliders?restaurant_id=2`)
+    return Service.get(`${resource}/sliders?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -29,7 +29,7 @@ export default {
       });
   },
   getAds() {
-    return Service.get(`${resource}/ads?restaurant_id=2`)
+    return Service.get(`${resource}/ads?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -40,7 +40,7 @@ export default {
       });
   },
   getPages() {
-    return Service.get(`${resource}/pages?restaurant_id=2`)
+    return Service.get(`${resource}/pages?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -51,7 +51,7 @@ export default {
       });
   },
   getPageById(id) {
-    return Service.get(`${resource}/pages/${id}?restaurant_id=2`)
+    return Service.get(`${resource}/pages/${id}?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -62,7 +62,7 @@ export default {
       });
   },
   getGalleries() {
-    return Service.get(`${resource}/galleries?restaurant_id=2`)
+    return Service.get(`${resource}/galleries?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -73,7 +73,7 @@ export default {
       });
   },
   getGalleryById(id) {
-    return Service.get(`${resource}/galleries/${id}?restaurant_id=2`)
+    return Service.get(`${resource}/galleries/${id}?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -84,7 +84,7 @@ export default {
       });
   },
   getNews() {
-    return Service.get(`${resource}/news?restaurant_id=2`)
+    return Service.get(`${resource}/news?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;
@@ -95,7 +95,7 @@ export default {
       });
   },
   getNewsById(id) {
-    return Service.get(`${resource}/news/${id}?restaurant_id=2`)
+    return Service.get(`${resource}/news/${id}?restaurant_id=5`)
       .then((response) => {
         if (response.status === 200) {
           return response;

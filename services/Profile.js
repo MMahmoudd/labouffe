@@ -24,7 +24,7 @@ export default {
       });
   },
   getUserAddress() {
-    return Service.get(`${resource}/my_addresses?restaurant_id=2`, {
+    return Service.get(`${resource}/my_addresses?restaurant_id=5`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("token"),
       },
@@ -63,7 +63,7 @@ export default {
     });
   },
   getGovernrate() {
-    return Service.get(`${resource}/governrates?restaurant_id=2`, {
+    return Service.get(`${resource}/governrates?restaurant_id=5`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("token"),
       },
@@ -75,7 +75,7 @@ export default {
   },
   getAreas(id) {
     return Service.get(
-      `${resource}/areas?restaurant_id=2&governrate_id=${id}`,
+      `${resource}/areas?restaurant_id=5&governrate_id=${id}`,
       {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
