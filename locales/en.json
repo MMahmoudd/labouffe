@@ -90,12 +90,13 @@
   },
 
   "checkout": {
+    "tax": "tax",
+    "service": "service ",
     "checkout": "checkout",
     "chooseNewLocation": "Choose New Location",
     "deleteAllCartData": "Delete All Cart Data",
     "subtotal": "Subtotal",
     "delivery": "Delivery",
-    "tax": "tax",
     "addNewAddress": "Add New Address",
     "noOrdersYet": "No Orders Yet",
     "backToProducts": "back to Add your Products",
