@@ -32,17 +32,19 @@
       </div>
     </div>
     <b-modal v-model="showDetails" size="xl" centered title="BootstrapVue">
-      <template #modal-header="{ close }">
-        <!-- Emulate built in modal header close button action -->
-        <b-button
-          class="close"
-          size="sm"
-          variant="outline-danger"
-          @click="close()"
-        >
-          <i class="fas fa-times"></i>
-        </b-button>
+      <template #modal-header>
+        <div></div>
       </template>
+      <!-- Emulate built in modal header close button action -->
+      <b-button
+        class="close"
+        size="sm"
+        variant="outline-danger"
+        @click="close()"
+      >
+        <i class="fas fa-times"></i>
+      </b-button>
+
       <div class="d-flex">
         <div class="img">
           <img :src="product.image" alt="product.image" />
@@ -141,6 +143,7 @@ export default {
     dismissCountDown: 0,
     selecetdSize: {
       selectedAddons: [],
+      reset: 1,
     },
   }),
   computed: {
@@ -203,6 +206,10 @@ export default {
       // console.log('test', productItem)
       this.showDetails = true;
       this.product = productItem;
+    },
+    close() {
+      this.selecetdSize.quantity = 1;
+      this.showDetails = false;
     },
   },
 };
