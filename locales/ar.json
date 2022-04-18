@@ -16,7 +16,8 @@
     "gallery": "معرض الصور",
     "news": "أخبار",
     "information": "معلومات",
-    "noData": "لا يوجد بيانات الان"
+    "noData": "لا يوجد بيانات الان",
+    "events": "دعوه"
   },
 
   "home": {
@@ -74,7 +75,8 @@
     "messagePlaceholder": "الرسالة",
     "send": "إرسال",
     "phone": "الهاتف",
-    "address": "العنوان"
+    "address": "العنوان",
+    "status": "الحالة"
   },
 
   "branches": {
@@ -134,7 +136,7 @@
     "emailDescription": "لن يتم مشاركة بريدك الإلكتروني مع أي شخص آخر",
 
     "emailPlaceholder": "ادخل بريدك",
-
+    "statusPlaceholder": "ادخل الحالة ",
     "orderDetails": "تفاصيل الطلبات",
     "addressCastoumer": "عنوان العميل",
 

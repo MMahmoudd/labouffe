@@ -7,6 +7,7 @@ import PagesService from './pages'
 import ProfileService from './Profile'
 import OrderService from './Order'
 import CommonService from './Common'
+// import Events from './events'
 
 const services = {
     Category: CategoryService,
@@ -17,7 +18,8 @@ const services = {
     pages: PagesService,
     profile: ProfileService,
     orders: OrderService,
-    common: CommonService,
+  common: CommonService,
+    //  events:Events
 }
 
 export const ServiceFactory = {

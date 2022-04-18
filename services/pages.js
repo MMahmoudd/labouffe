@@ -93,6 +93,7 @@ export default {
       .catch((error) => {
         return error.response.data.errors;
       });
+
   },
   getNewsById(id) {
     return Service.get(`${resource}/news/${id}?restaurant_id=5`)
@@ -105,4 +106,16 @@ export default {
         return error.response.data.errors;
       });
   },
+  getEvents() {
+    return Service.get(`${resource}/events?restaurant_id=5`)
+      .then((response) => {
+        if (response.status === 200) {
+          return response;
+        }
+      })
+      .catch((error) => {
+        return error.response.data.errors;
+      });
+  }
+
 };

@@ -10,19 +10,36 @@
           <b-nav-item>
             <nuxt-link :to="localePath('/')">{{ $t("global.home") }}</nuxt-link>
           </b-nav-item>
+
           <b-nav-item>
             <nuxt-link :to="localePath('/menu')">{{
               $t("global.menu")
             }}</nuxt-link>
           </b-nav-item>
-          <b-nav-item>
-            <nuxt-link :to="localePath('/contactUs')">{{
-              $t("global.contactUs")
-            }}</nuxt-link>
-          </b-nav-item>
+
           <b-nav-item>
             <nuxt-link :to="localePath('/branches')">{{
               $t("global.branches")
+            }}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link :to="localePath('/news')">{{
+              $t("global.news")
+            }}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link :to="localePath('/gallery')">{{
+              $t("global.gallery")
+            }}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link :to="localePath('/events')">{{
+              $t("global.events")
+            }}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link :to="localePath('/contactUs')">{{
+              $t("global.contactUs")
             }}</nuxt-link>
           </b-nav-item>
         </b-navbar-nav>
