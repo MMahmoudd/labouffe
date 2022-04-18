@@ -207,6 +207,7 @@ export default {
       // console.log('test', productItem)
       this.showDetails = true;
       this.product = productItem;
+      this.selecetdSize = productItem.sizes[0];
     },
     close() {
       this.selecetdSize.quantity = 1;
