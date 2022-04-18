@@ -1,6 +1,6 @@
 <template>
   <div class="products-component py-5">
-    <h2 class="header-section py-3">{{ $t("global.events") }}</h2>
+    <h2 class="header-section py-3">{{ $t("global.event") }}</h2>
 
     <!-- <div class="container text-left">
       {{ list }}

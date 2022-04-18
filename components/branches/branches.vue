@@ -29,7 +29,7 @@
                 <div class="col-md-12">
                   {{ $t("branches.timesofWork") }}
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 d-flex justify-content-end">
                   {{ item.time_from }}
                 </div>
                 <div class="col-md-12">

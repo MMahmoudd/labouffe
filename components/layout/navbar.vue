@@ -33,8 +33,13 @@
             }}</nuxt-link>
           </b-nav-item>
           <b-nav-item>
-            <nuxt-link :to="localePath('/events')">{{
-              $t("global.events")
+            <nuxt-link :to="localePath('/event')">{{
+              $t("global.event")
+            }}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link :to="localePath('/partener')">{{
+              $t("global.partener")
             }}</nuxt-link>
           </b-nav-item>
           <b-nav-item>
